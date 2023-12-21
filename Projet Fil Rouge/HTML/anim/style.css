@@ -1,0 +1,11 @@
+img:hover {
+    scale: 2;
+}
+
+img:active {
+    rotate: 90deg;
+}
+
+/*
+transform: scale(0.4, 2);
+transform: scaleX5(6);

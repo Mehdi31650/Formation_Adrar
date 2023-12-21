@@ -1,0 +1,109 @@
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Films Ghibli</title>
+    <link rel="stylesheet" href="monCSS.css" />
+  </head>
+
+  <form method="post" action="formulaire.php">
+    <label for="prenom">Prénom:</label>
+    <input type="text" name="prenom" id="prenom" placeholder="Ex: Jacques" min="2" maxlength="20" />
+    <br />
+    <label for="nom">Nom:</label>
+    <input type="text" name="nom" id="nom" placeholder="Ex: Dubois" min="2" maxlength="20" />
+    <br />
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" placeholder="Ex: monMail@FAI.com" />
+    <br />
+    <label for="number">Numéro:</label>
+    <input type="number" name="number" id="number" placeholder="Ex: 00.11.22.33.44" />
+    <br />
+    <label for="password">Mot de passe:</label>
+    <input type="password" name="password" id="password" minlength="8" maxlength="30" placeholder="Ex:P@ssWorld" />
+    <br />
+    <label for="age">Age</label>
+    <input type="age" name="age" id="age" placeholder="Ex:15" />
+    <br />
+    <br>
+    <label for="comment">Laissez un commentaire:</label>
+    <br>
+    <br>
+    <textarea name="comment" id="comment" row="10" cols="70" placeholder="J'adore ce que vous faites"></textarea>
+    <br>
+    <label for="date">Date de mon commentaire:</label>
+    <input type="date" name="date" id="date" minlength="8" maxlength="30" placeholder="jj/mm/aaaa"/>
+    <br>
+    <br>
+    <label for="photo">Ma photo:</label>
+    <input type="file" name="photo" id="file" accept=".jpg, .png, .gif">
+    <br>
+    <br>
+    <fieldset>
+    <legend>Vous préférez:</legend>  
+    <label for="fname">Le HTML</label>
+    <input type="checkbox" id="fname" name="fname"><br>
+    <label for="lname">Le CSS</label>
+    <input type="checkbox" id="lname" name="lname"><br>
+    <label for="email">Le JavaScript</label>
+    <input type="checkbox" id="email" name="email"><br>
+    <label for="birthday">Ne rien faire</label>
+    <input type="checkbox" id="birthday" name="birthday"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Vous vous levez:</legend>  
+        <label for="fname">Le matin</label>
+        <input type="checkbox" id="fname" name="fname"><br>
+        <label for="lname">Le midi</label>
+        <input type="checkbox" id="lname" name="lname"><br>
+        <label for="email">Le soir</label>
+        <input type="checkbox" id="email" name="email"><br>
+        <label for="birthday">En retard</label>
+        <input type="checkbox" id="birthday" name="birthday"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Fin du formulaire</legend>  
+            <label for="Vous en avez assez?">Vous en avez assez?<label
+            <input type="texte" value="Vous en avez assez?">
+            <select name="Pas encore" id="Pas encore">
+              <optgroup label="Again">
+                <option value="Pas encore">Pas encore</option>
+                <option value="Pas encore">J'en veux plus</option>
+                <option value="C'est super">C'est super</option>
+            </optgroup>
+            <optgroup label="Stop">
+                <option value="Oula">Oula</option>  
+                <option value="Oula">J'en ai marre</option>
+                <option value="Oula">Pitié</option>
+            </optgroup>
+            </select> 
+            <br>
+            <input type="submit" value="Envoyer">
+            <input type="reset" value="Reset">
+        </fieldset>
+  </form>
+</html>
+
+<!--
+ <input type="radio" id="radio1" name="radio" value="radio1"
+ select name=""liste" id="liste"
+ option
+ optgroup
+ submit
+ image
+ reset
+ button ajouter un texte lui ajouter attribut value
+
+<input type="button" value="Envoyer">
+
+
+
+
+
+
+    <input type="date" type="time" type="datetime.local" type ="month" type="week"/>
+    input type="file" accept=".png, .jpg, .gif"
+    input type="checkbox" id="checkbox"/><label for="checkbox">Je suis une checkbox/>
+        <fieldset>
+            <legend></legend> créer une légende et un titre à une légende
+        </fieldset>
+--!

@@ -1,0 +1,90 @@
+.dice{
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+  
+    
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+div:nth-child(2){
+    align-items: center;
+    justify-content: space-around;
+}
+div:nth-child(3){
+    align-items: center;
+    justify-content: space-around ;
+}
+div:nth-child(4){
+    justify-content: space-around ;
+}
+div:nth-child(4) div {
+    display: flex;
+    flex-direction: colmun;
+    justify-content: space-around ;
+}
+div:nth-child(5){
+    justify-content: space-evenly ;
+}
+div:nth-child(5) div {
+    display: flex;
+    flex-direction: colmun;
+    justify-content: space-around }
+div:nth-child(6){
+    align-self: center
+}
+div:nth-child(7){
+    justify-content: space-around ;
+}
+div:nth-child(7) div {
+    display: flex;
+    flex-direction: colmun;
+    justify-content: space-around ;
+}
+/*
+#container{ (parent)
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(3,1fr);
+}
+#box1{ (enfant)
+grid-column: 2;   ou : 1 /span 2;
+grid-row: 2;  
+}
+
+Important pour le zoning
+
+justify-items aligne axe principal
+align-items aligne secondaire
+justify-self aligne grid-item dans sa cellule principal
+align-self aligne grid-item secondaire
+
+
+
+Maintenant, utilisez align-items pour aider les grenouilles à se rendre au bas de l'étang. Cette propriété CSS aligne les éléments verticalement et accepte les valeurs suivantes :
+
+flex-start : Les éléments s'alignent au haut du conteneur.
+flex-end : Les éléments s'alignent au bas du conteneur.
+center : Les éléments s'alignent au centre vertical du conteneur.
+baseline : Les éléments s'alignent à la ligne de base du conteneur.
+stretch : Les éléments sont étirés pour s'adapter au conteneur.
+Bienvenue à Flexbox Froggy, un jeu où vous aidez Froggy la grenouille et ses amis en écrivant du code CSS! Guidez cette grenouille au nénuphar à la droite de l'étang en utilisant la propriété justify-content, qui aligne les éléments horizontalement et accepte les valeurs suivantes :
+
+flex-start : Les éléments s'alignent au côté gauche du conteneur.
+flex-end : Les éléments s'alignent au côté droit du conteneur.
+center : Les éléments s'alignent au centre du conteneur.
+space-between : Les éléments s'affichent avec un espace égal entre eux.
+space-around : Les éléments s'affichent avec un espacement égal à l'entour d'eux.
+
+Par exemple, justify-content: flex-end; bougera la grenouille vers la droite.

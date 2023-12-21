@@ -1,0 +1,25 @@
+body{
+    background-color: green;
+}
+
+p.ombre {
+    box-shadow: red 0px 0px 20px;
+}
+h1.Yallah{
+    text-shadow: blueviolet 10px 10px 5px;
+}
+p:nth-child(3){
+    margin-top:30px;
+    box-shadow:-10px 10px 3px yellowgreen;
+}
+div{
+    text-shadow: blue 5px -4px 8px;
+}
+.degrad2 {
+    background-image: repeating radial-gradient(yellow,violet 75px);
+    width:200px;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 230px;
+}

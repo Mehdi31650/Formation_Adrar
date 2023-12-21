@@ -1,0 +1,41 @@
+h1{
+    align-items: center;
+}
+.encadre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.paraphe {
+    background-color: grey;
+    padding: 10px;
+}
+.barre-connexion {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.bouton-connexion {
+  background-color: grey;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+div ul {
+    display: grid;
+    justify-content: end;
+}
+
+/*
+#container{ (parent)
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: repeat(3,1fr);
+}
+#box1{ (enfant)
+grid-column: 2;   ou : 1 /span 2;
+grid-row: 2;  
+}
+*/

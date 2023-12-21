@@ -1,0 +1,34 @@
+body{
+    background-color: blueviolet;
+    margin: 0;
+}
+p{ 
+    border: 2px solid green;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+p:nth-child(1){
+    height: 100px;
+    padding: 20px;
+    margin: 0px;
+}
+p:nth-child(2){
+    width: 50%;
+    padding: 1.2em;
+    margin: 20px 5px;
+}
+p:nth-child(3){
+    height: 200px;
+    width: 200px;
+    padding: -30px;
+    margin: auto;
+}
+
+/*
+div span block inline fieldset p margin border padding position
+margin = marge extérieure
+padding = marge intérieure
+
+*/

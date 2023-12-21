@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="TP.css" />
+  </head>
+  <body>
+    <header>
+      <img src="https://picsum.photos/200/600/" alt="Bannière" width="800" height="200" />
+      <h1><strong>Bienvenue sur mon site!</strong></h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html"><u>Accueil</u></a>
+          </li>
+          <br />
+          <li>
+            <a href="#"><u>Blog</u></a>
+          </li>
+          <br />
+          <li>
+            <a href="#"><u>Galerie</u></a>
+          </li>
+          <br />
+          <li>
+            <a href="contact.html"><u>Contact</u></a>
+          </li>
+          <br />
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <form action="contact.php" method="post">
+        <fieldset>
+          <legend>Contact</legend>
+          <div>
+            <label for="nom">Nom:*</label>
+            <input type="text" name="nom" id="nom" placeholder="Ex: Robert" minlength="2" maxlength="20" required />
+          </div>
+          <div>
+            <label for="email">Email:*</label>
+            <input type="email" name="email" id="email" placeholder="Ex: monMail@FAI.com" required />
+          </div>
+          <div>
+            <label for="commentaire">Laissez un commentaire:</label>
+            <br />
+            <textarea name="commentaire" id="commentaire" rows="10" cols="70" placeholder="Je dépose mon avis :)"></textarea>
+          </div>
+          <div>
+            <label for="copie">Envoyer une copie par E-mail !</label>
+            <input type="checkbox" name="copie" id="copie" checked />
+          </div>
+          <div>
+            <input type="submit" value="Envoyer" />
+            <input type="reset" value="Reset" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <footer>
+      <ol>
+        <li>
+          <a href="#"><u>Menu1</u></a>
+        </li>
+        <br />
+        <li>
+          <a href="#"><u>Menu2</u></a>
+        </li>
+        <br />
+        <li>
+          <a href="#"><u>Menu3</u></a>
+        </li>
+        <br />
+        <li>
+          <a href="#"><u>Menu4</u></a>
+        </li>
+        <br />
+      </ol>
+    </footer>
+  </body>
+</html>
